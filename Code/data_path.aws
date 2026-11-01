@@ -1,0 +1,13 @@
+[Version]
+Version=15.0
+[Designs]
+data_path=data_path.adf
+[Settings]
+Active=data_path
+[Expand]
+data_path=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1

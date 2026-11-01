@@ -1,0 +1,1 @@
+-o "C:/Users/TUF/Desktop/Arc project#2/project2/compile" -lc "C:/Users/TUF/Desktop/Arc project#2/project2/library.cfg" -fl "C:/Users/TUF/Desktop/Arc project#2/project2/projlib.cfg" -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -O2 -sve -msg 5 -sv2k17 -work data_path "C:/Users/TUF/Desktop/Arc project#2/project2/src/data_path.v" 

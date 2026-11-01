@@ -1,0 +1,75 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=data_path
+[Library]
+data_path=.\data_path\data_path.lib
+[$LibMap$]
+data_path=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+AccessACCB=1
+AccessACCR=1
+AccessReadTopLevel=1
+AccessRead=0
+AccessReadWrite=0
+AccessReadWriteSLP=1
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+[Files]
+/data_path.v=-1
+[Files.Data]
+.\src\data_path.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[folders]
+name0=ALINT-PRO Workspaces
+directory0=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension0=alintws
+name1=Coverage Databases
+directory1=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension1=acdb
+name2=Dll Libraries
+directory2=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension2=dll
+name3=Event Lists
+directory3=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension3=lst
+name4=HTML Files
+directory4=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension4=htm;html
+name5=Log Files
+directory5=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension5=log;htm;xml;txt
+name6=Matlab/Simulink Files
+directory6=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension6=m;mdl;slx
+name7=Memory Files
+directory7=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension7=mem;mif;hex
+name8=PDF Files
+directory8=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension8=pdf
+name9=Profiler Databases
+directory9=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension9=tbp
+name10=Script Files
+directory10=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension10=do;tcl;pl
+name11=Waveform Files
+directory11=C:\Users\TUF\Desktop\Arc project#2\project2\
+extension11=asdb;awc;asdbc;asdbe

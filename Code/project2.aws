@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Designs]
+data_path=.\data_path.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Expand]
+data_path=1

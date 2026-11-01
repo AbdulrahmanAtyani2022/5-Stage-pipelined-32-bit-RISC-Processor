@@ -1,0 +1,40 @@
+Active-HDL 15.0.261.9132 2025-06-06 17:19:29
+
+Elaboration top modules:
+Verilog Module                main
+
+
+-----------------------------------------------------------------------------------------------
+Verilog Module            | Library   | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------
+main                      | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+FetchStage                | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+PCAdder                   | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Branch                    | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+jump                      | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+pc_control                | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+kill_reg                  | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Lw                        | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Sw                        | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux4_1                    | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+IF_reg_out                | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+instruction_ID            | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+sign_exdend               | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ID                        | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Hazard_Detect_and_forward | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Register_File             | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ID_reg_out                | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux2_1                    | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU                       | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU_reg_out               | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+DataMemory                | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+DataMemory_reg            | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ProgramCounter            | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+InstructionMemory         | data_path |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                   | Comment
+-----------------------------------------------------------------------------------------------
+data_path                 | None
+-----------------------------------------------------------------------------------------------

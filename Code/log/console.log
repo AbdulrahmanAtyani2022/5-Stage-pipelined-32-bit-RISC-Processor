@@ -1,0 +1,251 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +w_nets +accb +accr +access +r +m+main main
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 47 (100.00%) other processes in SLP
+# SLP: 2 (0.61%) signals in SLP and 327 (99.39%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4890 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\TUF\Desktop\Arc project#2\project2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet209" has been made inactive.
+#  5:09 PM, Friday, June 6, 2025
+#  Simulation has been initialized
+# VSIM: 75 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/TUF/Desktop/Arc project#2/project2/src/wave.asdb'.
+run 4000ns
+# KERNEL: R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000004 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000003 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000002 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000001 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000000 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000004 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000003 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000002 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000001 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000000 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: stopped at time: 4 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 47 (100.00%) other processes in SLP
+# SLP: 2 (0.61%) signals in SLP and 327 (99.39%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4890 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\TUF\Desktop\Arc project#2\project2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet210" has been made inactive.
+#  5:13 PM, Friday, June 6, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/TUF/Desktop/Arc project#2/project2/src/wave.asdb'.
+run 4000ns
+# KERNEL: R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: at address   2 , we write          5
+# KERNEL: R0=00000005 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: stopped at time: 4 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 47 (100.00%) other processes in SLP
+# SLP: 2 (0.61%) signals in SLP and 327 (99.39%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4890 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\TUF\Desktop\Arc project#2\project2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet211" has been made inactive.
+#  5:15 PM, Friday, June 6, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/TUF/Desktop/Arc project#2/project2/src/wave.asdb'.
+run 4000ns
+# KERNEL: R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=0000000f R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: at address 160 , we write         15
+# KERNEL: R0=0000000f R1=000000a0 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: at address   x , we write          x
+# KERNEL: stopped at time: 4 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 47 (100.00%) other processes in SLP
+# SLP: 2 (0.61%) signals in SLP and 327 (99.39%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4890 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\TUF\Desktop\Arc project#2\project2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet212" has been made inactive.
+#  5:17 PM, Friday, June 6, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/TUF/Desktop/Arc project#2/project2/src/wave.asdb'.
+run 4000ns
+# KERNEL: R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: stopped at time: 4 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 47 (100.00%) other processes in SLP
+# SLP: 2 (0.61%) signals in SLP and 327 (99.39%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5452 kB (elbread=427 elab2=4890 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\TUF\Desktop\Arc project#2\project2\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet213" has been made inactive.
+#  5:19 PM, Friday, June 6, 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/TUF/Desktop/Arc project#2/project2/src/wave.asdb'.
+run 4000ns
+# KERNEL: R0=00000000 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: R0=00000005 R1=00000000 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=00000000 R7=00000000 R8=00000000 R9=00000000 R10=00000000 R11=00000000 R12=00000000 R13=00000000 R14=00000000 R15=00000000
+# KERNEL: at address   0 , we write          5
+# KERNEL: R0=00000005 R1=00000001 R2=00000000 R3=00000000 R4=00000000 R5=00000000 R6=000
